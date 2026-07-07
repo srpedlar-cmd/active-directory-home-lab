@@ -34,5 +34,12 @@ This project documents the deployment and configuration of a Windows Server 2022
 - Document the project for employers
 
 ## Lab Screenshots
+## Lab Walkthrough
 
-The following screenshots document each phase of the lab build.
+### Screenshot 1 – Windows Server 2022 Installed
+
+Description:
+Successfully installed Windows Server 2022 in Oracle VirtualBox. This virtual machine will serve as the Domain Controller (DC01) for the Active Directory environment.
+
+![Screenshot 1](images/screenshot1.png)
+
