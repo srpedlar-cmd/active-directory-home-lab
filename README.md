@@ -1,9 +1,11 @@
-# active-directory-home-lab
+# Active Directory Home Lab
 
 ## Project Overview
-This project demonstrates the deployment and configuration of a Windows Server 2022 Active Directory home lab using Oracle VirtualBox. The lab simulates common Help Desk and System Administrator tasks, including Active Directory Domain Services installation, Organizational Unit (OU) creation, user account management, and security group administration.
+
+This project documents the deployment and configuration of a Windows Server 2022 Active Directory Home Lab built in Oracle VirtualBox. The lab demonstrates common Help Desk and System Administrator tasks performed in an enterprise environment.
 
 ## Technologies Used
+
 - Windows Server 2022
 - Active Directory Domain Services (AD DS)
 - DNS
@@ -12,22 +14,25 @@ This project demonstrates the deployment and configuration of a Windows Server 2
 - GitHub
 
 ## Skills Demonstrated
+
 - Installing Windows Server 2022
-- Configuring a Domain Controller
-- Promoting a server to a Domain Controller
+- Promoting a Domain Controller
+- Configuring Active Directory
 - Creating Organizational Units (OUs)
-- Creating and managing Active Directory users
-- Creating Security Groups
-- Resetting user passwords
-- Unlocking user accounts
-- Managing group memberships
-- Basic Help Desk account administration
+- Creating User Accounts
+- Managing Security Groups
+- Password Resets
+- User Account Unlocks
+- Group Membership Management
+- Basic Help Desk Administration
 
-## Lab Objectives
+## Project Goals
+
 - Build a functioning Active Directory environment
-- Practice common Help Desk tasks
-- Document the deployment process
-- Showcase practical IT administration skills
+- Simulate real-world Help Desk tasks
+- Gain hands-on Windows Server experience
+- Document the project for employers
 
-## Screenshots
-Screenshots documenting each stage of the lab are included below.
+## Lab Screenshots
+
+The following screenshots document each phase of the lab build.
