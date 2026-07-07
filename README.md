@@ -34,40 +34,74 @@ This project documents the deployment and configuration of a Windows Server 2022
 - Document the project for employers
 
 ## Lab Screenshots
-# Windows Server 2022 Installation
+# Phase 1 – Windows Server 2022 Installation
 
-## Screenshot 1 – Windows Server Installation
-![Screenshot 1](screenshot#1.png)
+## Step 1 – Create the Windows Server Virtual Machine
 
-## Screenshot 2 – Server Installation Progress
-![Screenshot 2](screenshot#2 revised.png)
+![Step 1](server-1.png)
 
-## Screenshot 3 – Initial Server Configuration
-![Screenshot 3](screenshot#3.png)
+Created a Windows Server 2022 virtual machine in Oracle VirtualBox that will serve as the Domain Controller (DC01).
 
-## Screenshot 4 – Preparing the Server
-![Screenshot 4](screenshot#4.png)
+---
 
-## Screenshot 5 – Server Configuration
-![Screenshot 5](Screenshot#5 revised.png)
+## Step 2 – Install Windows Server 2022
 
-## Screenshot 6 – Server Manager
-![Screenshot 6](screenshot#6.png)
+![Step 2](server-2.png)
 
-## Screenshot 7 – Server Ready for Role Installation
-![Screenshot 7](screenshot#7.png)
+Installed Windows Server 2022 Desktop Experience.
 
-## Screenshot 8 – Final Configuration
-![Screenshot 8](screenshot#8 revised.png)
+---
 
-## Screenshot 9 – Windows Server Completed
-![Screenshot 9](screenshot#9.png)
-## Lab Walkthrough
+## Step 3 – Initial Server Setup
 
-### Screenshot 1 – Windows Server 2022 Installed
+![Step 3](server-3.png)
 
-Description:
-Successfully installed Windows Server 2022 in Oracle VirtualBox. This virtual machine will serve as the Domain Controller (DC01) for the Active Directory environment.
+Completed the initial Windows Server setup and verified the installation.
 
-![Screenshot 1](images/screenshot1.png)
+---
 
+## Step 4 – Configure the Server
+
+![Step 4](server-4.png)
+
+Performed initial configuration tasks before installing server roles.
+
+---
+
+## Step 5 – Prepare the Server
+
+![Step 5](server-5.png)
+
+Configured the server settings required before promoting it to a Domain Controller.
+
+---
+
+## Step 6 – Server Manager
+
+![Step 6](server-6.png)
+
+Verified Server Manager and prepared to install Active Directory Domain Services.
+
+---
+
+## Step 7 – Windows Server Ready
+
+![Step 7](server-7.png)
+
+Confirmed the server was ready for Active Directory installation.
+
+---
+
+## Step 8 – Final Configuration
+
+![Step 8](server-8.png)
+
+Completed the remaining Windows Server configuration tasks.
+
+---
+
+## Step 9 – Windows Server Complete
+
+![Step 9](server-9.png)
+
+Windows Server 2022 installation successfully completed and ready for Active Directory deployment.
