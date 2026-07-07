@@ -109,3 +109,108 @@ Renamed the Windows Server host from its automatically generated name to DC01
 ![Step 9](server-9.png)
 
 Windows Server 2022 installation successfully completed and ready for Active Directory deployment.
+
+
+# Phase 2 – Active Directory Domain Services Installation
+
+## Step 1 – Launch Add Roles and Features Wizard
+
+![AD 1](ad-1.png)
+
+Opened **Server Manager** and started the **Add Roles and Features Wizard** to begin installing Active Directory Domain Services.
+
+---
+
+## Step 2 – Select Installation Type
+
+![AD 2](ad-2.png)
+
+Selected the **Role-based or feature-based installation** option.
+
+---
+
+## Step 3 – Select Destination Server
+
+![AD 3](ad-3.png)
+
+Selected the local Windows Server 2022 machine (**DC01**) as the destination server.
+
+---
+
+## Step 4 – Select Active Directory Domain Services
+
+![AD 4](ad-4.png)
+
+Selected the **Active Directory Domain Services (AD DS)** server role.
+
+---
+
+## Step 5 – Review Required Features
+
+![AD 5](ad-5.png)
+
+Reviewed and accepted the required Windows features needed for Active Directory.
+
+---
+
+## Step 6 – Active Directory Domain Services Information
+
+![AD 6](ad-6.png)
+
+Reviewed Microsoft's overview of Active Directory Domain Services before continuing.
+
+---
+
+## Step 7 – Confirm Installation
+
+![AD 7](ad-7.png)
+
+Verified the installation selections before beginning the AD DS installation.
+
+---
+
+## Step 8 – Installation Complete
+
+![AD 8](ad-8.png)
+
+Successfully installed the Active Directory Domain Services role.
+
+---
+
+## Step 9 – Begin Domain Controller Promotion
+
+![AD 9](ad-9.png)
+
+Selected **Promote this server to a domain controller** to begin configuring the server as the first domain controller.
+
+---
+
+## Step 10 – Create a New Forest
+
+![AD 10](ad-10.png)
+
+Created a new Active Directory forest for the lab environment.
+
+---
+
+## Step 11 – Configure Domain Controller Options
+
+![AD 11](ad-11.png)
+
+Configured the Directory Services Restore Mode (DSRM) password and domain controller settings.
+
+---
+
+## Step 12 – Review Installation Options
+
+![AD 12](ad-12.png)
+
+Reviewed all Active Directory configuration settings before deployment.
+
+---
+
+## Step 13 – Prerequisite Checks
+
+![AD 13](ad-13.png)
+
+Verified that all prerequisite checks passed successfully before installing the Active Directory forest and promoting the server to a Domain Controller.
