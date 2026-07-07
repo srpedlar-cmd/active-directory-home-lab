@@ -40,7 +40,8 @@ This project documents the deployment and configuration of a Windows Server 2022
 
 ![Step 1](server-1.png)
 
-Created a Windows Server 2022 virtual machine in Oracle VirtualBox that will serve as the Domain Controller (DC01).
+Downloaded the official Windows Server 2022 Evaluation ISO from Microsoft. This ISO will be used to create the D01 domain controller virtual machine for the Active Directory home lab
+.
 
 ---
 
@@ -48,7 +49,8 @@ Created a Windows Server 2022 virtual machine in Oracle VirtualBox that will ser
 
 ![Step 2](server-2.png)
 
-Installed Windows Server 2022 Desktop Experience.
+Created the D01 virtual machine and attached the official Windows Server 2022 Evaluation ISO in Oracle VirtualBox
+
 
 ---
 
@@ -56,7 +58,9 @@ Installed Windows Server 2022 Desktop Experience.
 
 ![Step 3](server-3.png)
 
-Completed the initial Windows Server setup and verified the installation.
+Configured the virtual hardware for the DC01 Windows Server virtual machine (4 GB RAM, 2 CPUs, 80 GB virtual disk)
+
+
 
 ---
 
@@ -64,7 +68,7 @@ Completed the initial Windows Server setup and verified the installation.
 
 ![Step 4](server-4.png)
 
-Performed initial configuration tasks before installing server roles.
+Configured the Microsoft OS setup
 
 ---
 
@@ -72,7 +76,7 @@ Performed initial configuration tasks before installing server roles.
 
 ![Step 5](server-5.png)
 
-Configured the server settings required before promoting it to a Domain Controller.
+After completing the installation, created a password under the administrator.
 
 ---
 
@@ -80,7 +84,7 @@ Configured the server settings required before promoting it to a Domain Controll
 
 ![Step 6](server-6.png)
 
-Verified Server Manager and prepared to install Active Directory Domain Services.
+administrator login screen
 
 ---
 
@@ -88,7 +92,7 @@ Verified Server Manager and prepared to install Active Directory Domain Services
 
 ![Step 7](server-7.png)
 
-Confirmed the server was ready for Active Directory installation.
+Successfully logged into the newly installed Windows Server 2022 virtual machine for the first time.
 
 ---
 
@@ -96,7 +100,7 @@ Confirmed the server was ready for Active Directory installation.
 
 ![Step 8](server-8.png)
 
-Completed the remaining Windows Server configuration tasks.
+Renamed the Windows Server host from its automatically generated name to DC01
 
 ---
 
