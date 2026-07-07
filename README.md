@@ -218,95 +218,95 @@ Verified that all prerequisite checks passed successfully before installing the 
 
 # Phase 3 – Active Directory Administration
 
-This phase demonstrates common Help Desk and System Administration tasks performed in an Active Directory environment. These exercises simulate real-world user account management, Organizational Unit (OU) administration, security group management, and Role-Based Access Control (RBAC).
+This phase demonstrates  Help Desk and System Administration tasks performed in an Active Directory environment. These exercises simulate real-world user account management, Organizational Unit (OU) administration, security group management, and Role-Based Access Control (RBAC).
 
 ---
 
 ## Step 1 – Log On to the Domain Controller
 
-![AD Admin 1](ada-1.png)
+![AD Admin 1](admin-1.png)
 
-After promoting the Windows Server to a Domain Controller, I logged into the Active Directory environment using the built-in **Administrator** domain account. This confirmed the successful deployment of the **HOMELAB.LOCAL** domain and verified that the server was functioning as the first Domain Controller.
+After promoting the Windows Server to a Domain Controller, I logged into the new Active Directory environment using the built-in domain Administrator account.
 
 ---
 
 ## Step 2 – Open Active Directory Users and Computers
 
-![AD Admin 2](ada-2.png)
+![AD Admin 2](admin-2.png)
 
-Opened **Active Directory Users and Computers (ADUC)** from **Server Manager → Tools**. ADUC is the primary administrative console used to manage users, computers, groups, Organizational Units (OUs), and other Active Directory objects.
+I opened the Active Directory Users and Computers (ADUC) management console from Server Manager → Tools.
 
 ---
 
 ## Step 3 – Create the Corporate Organizational Unit
 
-![AD Admin 3](ada-3.png)
+![AD Admin 3](admin-3.png)
 
-Created the **Corporate** Organizational Unit (OU) within the **HOMELAB.LOCAL** domain. Organizational Units provide a logical structure for organizing Active Directory resources while supporting delegated administration and Group Policy deployment.
+I created the Corporate Organizational Unit (OU) within homelab.localdomain
 
 ---
 
 ## Step 4 – Create the IT Organizational Unit
 
-![AD Admin 4](ada-4.png)
+![AD Admin 4](admin-4.png)
 
-Created the **IT** Organizational Unit inside the **Corporate** OU to represent the Information Technology department. Organizing resources by department improves administration and simplifies policy management.
+I created the IT Organizational Unit (OU) inside the Corporate OU to represent the Information Technology department. 
 
 ---
 
 ## Step 5 – Complete the Organizational Unit Structure
 
-![AD Admin 5](ada-5.png)
+![AD Admin 5](admin-5.png)
 
-Created a production-style Organizational Unit hierarchy to organize company resources by department. This structure supports centralized administration, delegated permissions, and Group Policy management.
+Created an Active Directory Organizational Unit to organize company resources by department
 
 ---
 
 ## Step 6 – Create the First Active Directory User
 
-![AD Admin 6](ada-6.png)
+![AD Admin 6](admin-6.png)
 
-Created the first Active Directory user account within the IT Organizational Unit, demonstrating the user provisioning process used during employee onboarding.
+Created the first Active Directory user account within the IT Organizational Unit.
 
 ---
 
 ## Step 7 – Create Department User Accounts
 
-![AD Admin 7](ada-7.png)
+![AD Admin 7](admin-7.png)
 
-Created and organized multiple departmental user accounts to simulate onboarding employees into different business units within an enterprise Active Directory environment.
+Created and organized multiple departmental user accounts to simulate onboarding employees into different business units.
 
 ---
 
 ## Step 8 – Create Active Directory Security Groups
 
-![AD Admin 8](ada-8.png)
+![AD Admin 8](admin-8.png)
 
-Created departmental security groups to implement **Role-Based Access Control (RBAC)**. Security groups simplify permission management by assigning permissions to groups instead of individual user accounts.
+Created departmental security groups to implement Role based access control (RABC)
 
 ---
 
 ## Step 9 – Add User to the Help Desk Security Group
 
-![AD Admin 9](ada-9.png)
+![AD Admin 9](admin-9.png)
 
-Added the user account **Steven R. Pedlar** to the **Help Desk** security group, demonstrating how access is managed using security group membership rather than assigning permissions directly to users.
+Added the user account Steven R. Pedlar to the Help Desk security group, demonstrating how access is managed using security group membership rather than assigning permissions directly to users.
 
 ---
 
 ## Step 10 – Reset a User Password
 
-![AD Admin 10](ada-10.png)
+![AD Admin 10](admin-10.png)
 
-Performed a password reset for an Active Directory user account. Password resets are among the most common Help Desk support tasks and are critical for restoring secure user access.
+Performed a password reset for an Active Directory user account. 
 
 ---
 
 ## Step 11 – Disable a User Account
 
-![AD Admin 11](ada-11.png)
+![AD Admin 11](admin-11.png)
 
-Disabled a user account to simulate employee offboarding and security procedures. Disabling accounts helps prevent unauthorized access while preserving account information for auditing and future administrative needs.
+Disabled a user account to simulate employee offboarding and security procedures.
 
 ---
 
